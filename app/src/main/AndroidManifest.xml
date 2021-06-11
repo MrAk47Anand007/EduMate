@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gpa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GPA">
+        <activity android:name=".submissionView.MarksActivity"></activity>
+        <activity android:name=".auth.auth">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".submissionView.pdfViewactivity"
+            android:parentActivityName=".submissionView.subViewPDf" />
+        <activity
+            android:name=".submissionView.subViewPDf"
+            android:parentActivityName=".submissionView.Submission_View" />
+        <activity
+            android:name=".submissionView.Submission_View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Submission.delete_submission"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Submission.Submission_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Notice.DeleteNotice"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".teachers.UpdateFaculty"
+            android:parentActivityName=".teachers.UploadFaculty" />
+        <activity
+            android:name=".teachers.AddFaculty"
+            android:parentActivityName=".teachers.UploadFaculty" />
+        <activity
+            android:name=".teachers.UploadFaculty"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UploadOldPaper"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UploadCarriculum"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UploadBook"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UploadImage"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Notice.upload_notice"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

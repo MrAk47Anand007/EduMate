@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".submissionView.MarksActivity"
+    android:background="@drawable/newback">
+
+    <LinearLayout
+        android:background="@drawable/newback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Submissionpresentymarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter the marks of presenty upto 2 marks"
+                android:textColorHint="@color/black" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SubmissionPerMarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter the marks of performance upto 4 marks"
+                android:textColorHint="@color/black" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            app:cornerRadius="15dp"
+            android:layout_height="wrap_content"
+            android:text="add to excel"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/excelbutton"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

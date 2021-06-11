@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GpA(Students)</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/bold</string>
+    <string name="black" tools:ignore="ReferenceType">@font/black</string>
+    <string name="light" tools:ignore="ReferenceType">@font/light</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/regular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Start">Start</string>
+    <string name="Close">Close</string>
+    <string name="contactusno">Contact: (0721) 2660127 </string>
+    <string name="contactusemail">Email: principal.gpamravati@dtemaharashtra.gov.in</string>
+
+    <string name="about_app">This app is made for students.The main reason for this is that all students should have curriculum and notice textbooks in one place.Also students get the faculty information</string>
+    <string name="about_college">Government Polytechnic Amravati is an autonomous institute of Government of Maharashtra which is one of the oldest institutes established in 1955.</string>
+</resources>

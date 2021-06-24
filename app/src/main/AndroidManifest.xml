@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GPA">
-        <activity android:name=".submissionView.MarksActivity"></activity>
+        <activity android:name=".submissionView.MarksActivity">
+
+        </activity>
         <activity android:name=".auth.auth">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -63,10 +65,7 @@
             android:name=".Notice.upload_notice"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
     </application>
 

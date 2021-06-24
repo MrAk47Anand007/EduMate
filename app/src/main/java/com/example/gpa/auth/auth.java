@@ -50,8 +50,5 @@ public class auth extends AppCompatActivity {
                 }
             }
         });
-
-
-
     }
 }

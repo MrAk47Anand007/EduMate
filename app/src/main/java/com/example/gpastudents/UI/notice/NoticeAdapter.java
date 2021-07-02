@@ -2,6 +2,7 @@ package com.example.gpastudents.UI.notice;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,6 +47,15 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        holder.displayNoticeImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context,Notice_image_full_view.class);
+                intent.putExtra("image",currentItem.getImage());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

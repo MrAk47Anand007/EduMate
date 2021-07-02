@@ -11,7 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GpAStudents">
-        <activity android:name=".curriculum.curriculumViewActivity"
+        <activity android:name=".UI.notice.Notice_image_full_view"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".curriculum.curriculumViewActivity"
             android:parentActivityName=".curriculum.curriculumActivity">
 
         </activity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.example.gpastudents.UI.home.homeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"
+        />
+    <fragment android:id="@+id/navigation_gallery"
+        android:name="com.example.gpastudents.UI.gallery.galleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery"/>
+    <fragment android:id="@+id/navigation_book"
+        android:name="com.example.gpastudents.UI.book.bookFragment"
+        android:label="Book"
+        tools:layout="@layout/fragment_book"/>
+    <fragment android:id="@+id/navigation_curriculum"
+        android:name="com.example.gpastudents.UI.curriculum.curriculumFragment"
+        android:label="Curriculum"
+        tools:layout="@layout/fragment_curriculum"/>
+    <fragment android:id="@+id/navigation_notice"
+        android:name="com.example.gpastudents.UI.notice.noticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice"/>
+    <fragment android:id="@+id/navigation_faculty"
+        android:name="com.example.gpastudents.UI.faculty.FacultyFragment"
+        android:label="Faculty"
+        tools:layout="@layout/fragment_faculty"/>
+    <fragment android:id="@+id/navigation_oldpaper"
+        android:name="com.example.gpastudents.UI.oldpaper.oldpaperFragment"
+        android:label="Old_Paper"
+        tools:layout="@layout/fragment_oldpaper"/>
+    <fragment android:id="@+id/navigation_about"
+        android:name="com.example.gpastudents.UI.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about"/>
+
+
+</navigation>

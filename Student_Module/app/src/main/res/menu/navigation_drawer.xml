@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/navigation_book"
+    android:title="Book"
+    android:icon="@drawable/book"
+    />
+ <item
+     android:id="@+id/navigation_curriculum"
+     android:title="Curriculum"
+     android:icon="@drawable/iconspdf"
+     />
+ <item
+     android:id="@+id/navigation_oldpaper"
+     android:title="Old Paper"
+     android:icon="@drawable/iconspaper"
+     />
+ <item
+     android:id="@+id/navigation_submission"
+     android:title="Submission"
+     android:icon="@drawable/iconsbook"
+     />
+ <item
+     android:id="@+id/navigation_website"
+     android:title="Website"
+     android:icon="@drawable/iconswebsite"
+     />
+ <item
+     android:id="@+id/navigation_share"
+     android:title="Share"
+     android:icon="@drawable/iconsshare"
+     />
+
+
+
+</menu>

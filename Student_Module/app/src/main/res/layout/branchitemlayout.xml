@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/newback"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/text_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_infotech"
+                android:id="@+id/BranchIcon"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch"
+                android:id="@+id/BranchTitle"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:fontFamily="@string/bold"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/BranchDescription"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/about_college"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            android:fontFamily="@font/regular"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

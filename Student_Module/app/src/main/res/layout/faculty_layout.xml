@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/newback"
+        android:orientation="vertical"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.5"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:paddingLeft="12dp">
+
+
+
+                <TextView
+                    android:id="@+id/facultyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Anand Kale"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/facultyPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Principle"
+                    android:layout_marginTop="1dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/facultyEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="anandkalegak@gmail66666666666.com"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/facultyImage"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:padding="12dp"
+                android:src="@drawable/faculty"
+                android:layout_marginHorizontal="8dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

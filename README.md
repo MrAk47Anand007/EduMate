@@ -2,6 +2,10 @@
 - I make a simple College Classroom app with 2 modules.
   - Admin Application.
   - Student Application.
+- Technologies Used:
+  - Android
+  - Java
+  - Firebase
 --------------------------------------------------------------------------------------------------------
 # Some Snapshots of Applications.
 ## Admin Application

@@ -16,3 +16,9 @@
 -----------------------------------------------------------------------------------------------------------------------
 ![all](https://user-images.githubusercontent.com/71403848/219553415-e4d2001c-88ac-43ad-99dd-de9cd4c676d4.png)
 -----------------------------------------------------------------------------------------------------------------------  
+
+# Note
+  - Username for Admin:   Admin2021
+  - Password for Admin:   Gpait
+  - Username for Student: Admin2021
+  - Password for Student: GPA2021
